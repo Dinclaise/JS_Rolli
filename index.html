@@ -36,9 +36,9 @@
 
 								<div class="details-wrapper">
 									<div class="items">
-										<div class="items__control">-</div>
-										<div class="items__current">1</div>
-										<div class="items__control">+</div>
+										<div class="items__control" id="minus">-</div>
+										<div class="items__current" id="number">1</div>
+										<div class="items__control" id="plus">+</div>
 									</div>
 
 									<div class="price">
@@ -47,7 +47,7 @@
 									</div>
 								</div>
 
-								<button type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
+								<button id="addButton" type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
 								
 							</div>
 						</div>
@@ -64,9 +64,9 @@
 
 								<div class="details-wrapper">
 									<div class="items">
-										<div class="items__control">-</div>
-										<div class="items__current">1</div>
-										<div class="items__control">+</div>
+										<div class="items__control" id="minus">-</div>
+										<div class="items__current" id="number">1</div>
+										<div class="items__control" id="plus">+</div>
 									</div>
 
 									<div class="price">
@@ -75,7 +75,7 @@
 									</div>
 								</div>
 
-								<button type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
+								<button id="addButton" type="button" class="btn btn-block btn-outline-warning">+ в корзину</button>
 								
 							</div>
 						</div>
@@ -83,7 +83,7 @@
 					<!-- // Ролл -->
 
 					<!-- Ролл -->
-					<div class="col-md-6">
+					<!-- <div class="col-md-6">
 						<div class="card mb-4">
 							<img class="product-img" src="img/roll/zapech-california.jpg" alt="">
 							<div class="card-body text-center">
@@ -108,11 +108,11 @@
 								
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<!-- // Ролл -->
 
 					<!-- Ролл -->
-					<div class="col-md-6">
+					<!-- <div class="col-md-6">
 						<div class="card mb-4">
 							<img class="product-img" src="img/roll/philadelphia.jpg" alt="">
 							<div class="card-body text-center">
@@ -137,7 +137,7 @@
 								
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<!-- // Ролл -->
 
 				</div>
@@ -145,7 +145,7 @@
 			<div class="col-md-4">
 
 				<!-- Корзина Пустая -->
-				<div class="card mb-4">
+				<div class="card mb-4" id="emptyBasket">
 					<div class="card-body">
 						<h5 class="card-title">Ваш заказ</h5>
 						<div class="alert alert-secondary" role="alert">
@@ -156,7 +156,7 @@
 				<!-- // Корзина Пустая -->
 
 				<!-- Корзина Полная -->
-				<div class="card">
+				<div class="card" id="fullBasket">
 					<div class="card-body">
 						<h5 class="card-title">Ваш заказ</h5>
 						
@@ -178,7 +178,7 @@
 
 											<div class="items items--small">
 												<div class="items__control">-</div>
-												<div class="items__current">1</div>
+												<div class="items__current" id="number">1</div>
 												<div class="items__control">+</div>
 											</div>
 
@@ -192,70 +192,7 @@
 									</div>
 								</div>
 							</div>
-							<!-- // cart-item  -->
-
-							<!-- cart-item  -->
-							<div class="cart-item">
-								<div class="cart-item__top">
-									<div class="cart-item__img">
-										<img src="img/roll/philadelphia.jpg" alt="">
-									</div>
-									<div class="cart-item__desc">
-										<div class="cart-item__title">Филадельфия хит ролл</div>
-										<div class="cart-item__weight">6 шт. / 182г.</div>
-
-										<!-- cart-item__details -->
-										<div class="cart-item__details">
-
-											<div class="items items--small">
-												<div class="items__control">-</div>
-												<div class="items__current">1</div>
-												<div class="items__control">+</div>
-											</div>
-
-											<div class="price">
-												<div class="price__currency">230 ₽</div>
-											</div>
-
-										</div>
-										<!-- // cart-item__details -->
-
-									</div>
-								</div>
-							</div>
-							<!-- // cart-item  -->
-
-							<!-- cart-item  -->
-							<div class="cart-item">
-								<div class="cart-item__top">
-									<div class="cart-item__img">
-										<img src="img/roll/philadelphia.jpg" alt="">
-									</div>
-									<div class="cart-item__desc">
-										<div class="cart-item__title">Филадельфия хит ролл</div>
-										<div class="cart-item__weight">6 шт. / 182г.</div>
-
-										<!-- cart-item__details -->
-										<div class="cart-item__details">
-
-											<div class="items items--small">
-												<div class="items__control">-</div>
-												<div class="items__current">1</div>
-												<div class="items__control">+</div>
-											</div>
-
-											<div class="price">
-												<div class="price__currency">230 ₽</div>
-											</div>
-
-										</div>
-										<!-- // cart-item__details -->
-
-									</div>
-								</div>
-							</div>
-							<!-- // cart-item  -->
-
+							
 					
 
 						
